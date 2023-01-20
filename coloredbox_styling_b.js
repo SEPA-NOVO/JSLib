@@ -11,7 +11,7 @@
 					</tr>
 					<tr>
 					<td>Border Color</td>
-					<td><input id="border_color" type="text" size="40" maxlength="3"></td>
+					<td><input id="border_color" type="text" size="40" maxlength="40"></td>
 				</tr>
 				</table>
 				<input type="submit" style="display:none;">
