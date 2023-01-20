@@ -9,7 +9,10 @@
 						<td>Color</td>
 						<td><input id="styling_color" type="text" size="40" maxlength="40"></td>
 					</tr>
-			
+					<tr>
+					<td>Border Color</td>
+					<td><input id="border_color" type="text" size="40" maxlength="40"></td>
+				</tr>
 				</table>
 				<input type="submit" style="display:none;">
 			</fieldset>
@@ -29,7 +32,8 @@
 			this.dispatchEvent(new CustomEvent("propertiesChanged", {
 					detail: {
 						properties: {
-							color: this.color
+							color: this.color,
+							bordercolor: this.bordercolor
 						}
 					}
 			}));
@@ -43,6 +47,13 @@
 			return this._shadowRoot.getElementById("styling_color").value;
 		}
 
+		set bordercolor(newBordercolor) {
+			this._shadowRoot.getElementById("border_color").value = newBordercolor;
+		}
+
+		get bordercolor() {
+			return this._shadowRoot.getElementById("border_color").value;
+		}
 	}
 
 customElements.define("com-novo-coloredbox-b-styling", ColoredBoxStylingPanel);
