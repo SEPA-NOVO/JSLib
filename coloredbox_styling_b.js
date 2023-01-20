@@ -3,20 +3,26 @@
 	template.innerHTML = `
 		<form id="form">
 			<fieldset>
-				<legend>Colored Box Properties</legend>
+				<legend>NOVO - Colored Border Box Properties</legend>
 				<table>
 					<tr>
 						<td>Color</td>
 						<td><input id="styling_color" type="text" size="40" maxlength="40"></td>
 					</tr>
 					<tr>
-					<td>Border Color</td>
-					<td><input id="border_color" type="text" size="40" maxlength="40"></td>
+						<td>Border Color</td>
+						<td><input id="border_color" type="text" size="40" maxlength="40"></td>
 				</tr>
 				</table>
 				<input type="submit" style="display:none;">
 			</fieldset>
 		</form>
+		<style>
+		:host {
+			display: block;
+			padding: 1em 1em 1em 1em;
+		}
+		</style>
 	`;
 
 	class ColoredBoxStylingPanel extends HTMLElement {
@@ -57,5 +63,4 @@
 	}
 
 customElements.define("com-novo-coloredbox-b-styling", ColoredBoxStylingPanel);
-//})
 })();
