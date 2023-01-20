@@ -47,8 +47,8 @@
 			return this._shadowRoot.getElementById("styling_color").value;
 		}
 
-		set bordercolor(newColor) {
-			this._shadowRoot.getElementById("boarder_color").value = newColor;
+		set bordercolor(newBordercolor) {
+			this._shadowRoot.getElementById("boarder_color").value = newBordercolor;
 		}
 
 		get bordercolor() {
