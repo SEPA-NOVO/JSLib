@@ -1,0 +1,101 @@
+{
+	"id": "com.novo",
+	"version": "1.0.1",
+	"name": "Colored Box Boarder",
+	"description": "A colored box boarder",
+	"newInstancePrefix": "ColoredBox boarder",
+	"icon": "https://sepa-novo.github.io/JSLib/icon.png",
+	"vendor": "NOVO",
+	"eula": "",
+	"license": "",
+	"webcomponents": [
+		{
+			"kind": "main",
+			"tag": "com-novo-coloredbox-b",
+			"url": "https://sepa-novo.github.io/JSLib/coloredbox_b.js",
+			"integrity": "",
+			"ignoreIntegrity": true
+		},
+		{
+			"kind": "styling",
+			"tag": "com-novo-coloredbox-b-styling",
+			"url": "https://sepa-novo.github.io/JSLib/coloredbox_b_styling.js",
+			"integrity": "",
+			"ignoreIntegrity": true
+		},
+		{
+			"kind": "builder",
+			"tag": "com-novo-coloredbox-b-builder",
+			"url": "https://sepa-novo.github.io/JSLib/coloredbox_b_builder.js",
+			"integrity": "",
+			"ignoreIntegrity": true
+		}
+	],
+	"properties": {
+		"color": {
+			"type": "string",
+			"description": "Background color",
+			"default": "red"
+		},
+		"boardercolor": {
+			"type": "string",
+			"description": "Border color",
+			"default": "black"
+		},
+		"opacity": {
+			"type": "number",
+			"description": "Opacity",
+			"default": 1
+		},
+		"width": {
+			"type": "integer",
+			"default": 100
+		},
+		"height": {
+			"type": "integer",
+			"default": 100
+		}
+	},
+	"methods": {
+		"setColor": {
+			"description": "Sets the background color.",
+			"parameters": [
+				{
+					"name": "newColor",
+					"type": "string",
+					"description": "The new background color"
+				}
+			],
+			"body": "this.color = newColor;"
+		},
+		"getColor": {
+			"returnType": "string",
+			"description": "Returns the background color.",
+			"body": "return this.color;"
+		},
+
+		"setBordercolor": {
+			"description": "Sets the border color.",
+			"parameters": [
+				{
+					"name": "newBoardercolor",
+					"type": "string",
+					"description": "The new border color"
+				}
+			],
+			"body": "this.boardercolor = newBoarderolor;"
+		},
+		"getBoardercolor": {
+			"returnType": "string",
+			"description": "Returns the background color.",
+			"body": "return this.boardercolor;"
+		}
+	},
+	"events": {
+		"onClick": {
+			"description": "Called when the user clicks the Colored Box."
+		}
+	}
+}
+
+ 
