@@ -49,5 +49,5 @@
 		}
 	}
 
-	customElements.define("com-main-novo-coloredbox-builder", ColoredBoxBuilderPanel);
+	customElements.define("com-novo-coloredbox-builder", ColoredBoxBuilderPanel);
 })();
