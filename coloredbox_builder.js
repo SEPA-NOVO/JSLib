@@ -50,4 +50,4 @@
 	}
 
 	customElements.define("com-novo-coloredbox-builder", ColoredBoxBuilderPanel);
-})();
+})(); 
