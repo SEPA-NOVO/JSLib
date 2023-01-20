@@ -3,8 +3,8 @@
 	template.innerHTML = `
 		<style>
 		:host {
-			border-radius: 25px;
-			border-width: 4px;
+			border-radius: 0px;
+			border-width: 1px;
 			border-color: black;
 			border-style: solid;
 			display: block;
