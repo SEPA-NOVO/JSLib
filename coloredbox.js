@@ -38,5 +38,5 @@
 		}
 	}
 
-	customElements.define("com-sap-sample-coloredbox", ColoredBox);
+	customElements.define("com-main-novo-coloredbox", ColoredBox);
 })();
