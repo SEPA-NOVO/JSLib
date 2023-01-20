@@ -3,7 +3,7 @@
 	template.innerHTML = `
 		<form id="form">
 			<fieldset>
-				<legend>Colored Box Properties</legend>
+				<legend>NONO - Colored Box Properties</legend>
 				<table>
 					<tr>
 						<td>Color</td>
@@ -43,4 +43,4 @@
 		}
 	}
 
-customElements.define("com-main-novo-coloredbox-styling", ColoredBoxStylingPanel);
+customElements.define("com-novo-coloredbox-styling", ColoredBoxStylingPanel);
