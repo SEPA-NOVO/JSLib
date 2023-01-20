@@ -44,3 +44,4 @@
 	}
 
 customElements.define("com-novo-coloredbox-styling", ColoredBoxStylingPanel);
+	})();
