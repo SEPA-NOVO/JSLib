@@ -33,7 +33,7 @@
 				this.style["background-color"] = changedProperties["color"];
 			}
 			if ("bordercolor" in changedProperties) {
-				this.style["boarder-color"] = changedProperties["boardercolor"];
+				this.style["border-color"] = changedProperties["bordercolor"];
 			}
 			if ("opacity" in changedProperties) {
 				this.style["opacity"] = changedProperties["opacity"];
