@@ -43,4 +43,4 @@
 		}
 	}
 
-customElements.define("com-sap-sample-coloredbox-styling", ColoredBoxStylingPanel);
+customElements.define("com-main-novo-coloredbox-styling", ColoredBoxStylingPanel);
