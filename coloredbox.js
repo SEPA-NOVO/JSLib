@@ -38,5 +38,5 @@
 		}
 	}
 
-	customElements.define("com-main-novo-coloredbox", ColoredBox);
+	customElements.define("com-novo-coloredbox", ColoredBox);
 })();
